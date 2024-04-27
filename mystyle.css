@@ -1,0 +1,58 @@
+h1{
+    color: rgb(99, 102, 89);
+    font-style: normal;
+    font-weight: 700px;
+}
+h2{
+    color: rgb(117, 121, 105);
+}
+.text-bold{
+    font-weight: bold;
+}
+.text-italic{
+    font-style: italic;
+}
+p {
+    color: rgb(117, 121, 105);
+}
+.h2special{
+    font-weight: 300;
+    text-transform: uppercase;
+}
+ul{
+    color: rgb(117, 121, 105);
+    
+}
+img{
+    max-width: 500px;
+    
+}
+#white{
+    color: white;
+}
+.responsive{
+    width: 100%;
+    height: auto;
+}
+.main-content{
+    display: flex;
+    }
+.first-content{
+    max-width:300px;
+    padding: 20px;
+    background-color: rgb(149, 153, 135);
+}
+.second-content{
+    width: 60%;
+    padding: 20px;
+    background-color: rgb(252, 249, 244);
+}
+.name{
+    background-color: rgb(178, 182, 164);
+}
+footer>p {
+    display: inline;
+    justify-content: space-between;
+    text-align: center;
+    padding: 100px;
+}
