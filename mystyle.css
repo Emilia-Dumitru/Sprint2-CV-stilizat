@@ -1,58 +1,59 @@
-h1{
-    color: rgb(99, 102, 89);
-    font-style: normal;
-    font-weight: 700px;
-}
-h2{
-    color: rgb(117, 121, 105);
-}
-.text-bold{
-    font-weight: bold;
-}
-.text-italic{
-    font-style: italic;
-}
-p {
-    color: rgb(117, 121, 105);
-}
-.h2special{
-    font-weight: 300;
-    text-transform: uppercase;
-}
-ul{
-    color: rgb(117, 121, 105);
-    
-}
-img{
-    max-width: 500px;
-    
-}
-#white{
-    color: white;
-}
-.responsive{
+.profile-img {
     width: 100%;
     height: auto;
 }
-.main-content{
+
+.main-content {
     display: flex;
-    }
-.first-content{
-    max-width:300px;
+    justify-content: center;
+}
+
+.first-content {
+    width: 40%;
     padding: 20px;
     background-color: rgb(149, 153, 135);
 }
-.second-content{
+
+.first-content p,
+.first-content h2,
+.first-content ul {
+    color: #FFFFFF
+}
+
+.second-content {
     width: 60%;
-    padding: 20px;
     background-color: rgb(252, 249, 244);
 }
-.name{
-    background-color: rgb(178, 182, 164);
+
+.second-section p,
+.second-section h2,
+.second-section ul {
+    color: rgb(117, 121, 105)
 }
-footer>p {
-    display: inline;
-    justify-content: space-between;
+
+.name {
+    background-color: rgb(178, 182, 164);
+    padding: 20px;
     text-align: center;
-    padding: 100px;
+}
+
+.second-section {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: antiquewhite;
+    padding: 20px;
 }
